@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Magazine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&family=Monomakh&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <main>
+        <section class="heading">
+            <header class="hero">
+                <img src="https://i.postimg.cc/Y9y6vWYw/Quantum-qubits.png" alt="Quantum qubits" loading="lazy" class="hero-img"/>
+                <h1 class="hero-title">QUANTUM COMPUTING</h1>
+                <p class="hero-subtitle">Unleashing unprecedented computational power and speed.</p>
+            </header>
+            <div class="author">
+                <p class=""author-name">By Joe Dolan</p>
+                <p class="publish-date">January 12, 2025</p>
+            </div>
+            <div class="social-icons">
+                <a href="facebook profile"><i class="fab fa-facebook-f"></i></a>
+                <a href="twitter profile"><i class="fab fa-twitter"></i></a>
+                <a href="instagram profile"><i class="fab fa-instagram"></i></a>
+                <a href="linkedin profile"><i class="fab fa-linkedin-in"></i></a>
+                <a href="youtube profile"><i class="fab fa-youtube"></i></a>
+            </div>
+        </section>
+        <section class="text">
+            <p class="first-paragraph">Quantum computing is a new type of computing that uses tiny particles like atoms to perform calculations. Unlike regular computers, which use bits that can be either 0 or 1, quantum computers use qubits. Qubits can be in multiple states at the same time because of a property called superposition. This means a qubit can be both 0 and 1 at once, allowing quantum computers to process a vast amount of information simultaneously.</p>
+            <p>One exciting way quantum computing could change the world is by helping to replicate DNA. In regular computing, simulating the complex structure of DNA is incredibly time-consuming and difficult. Quantum computers, with their ability to handle many possibilities at once, could simulate DNA quickly and accurately. This could lead to breakthroughs in medicine, such as personalized treatments based on an individual's genetic makeup.</p>
+            <p>To give you an idea of the power difference between today’s computers and quantum computers, imagine solving a really complex puzzle. A regular computer might try every possible combination one by one, which could take years. A quantum computer, on the other hand, can consider many combinations at the same time, solving the puzzle much faster. For example, while it might take a classical computer thousands of years to break a complex encryption, a quantum computer could do it in just seconds.</p>
+            <blockquote>
+                <hr/>
+                <p class="quote">Quantum computing is not just a new way of doing old things; it is a fundamentally new way of thinking about computation.</p>
+                <hr/>
+            </blockquote>
+            <p>Another example is in drug discovery. Today’s computers struggle to simulate the interactions of complex molecules, which is crucial for developing new drugs. Quantum computers, with their ability to handle complex simulations, could dramatically speed up this process, leading to faster development of new medications and treatments.</p>
+            <p>In the field of finance, quantum computers could revolutionize the way we analyze large datasets. For instance, optimizing investment portfolios involves complex calculations that account for numerous variables. Quantum computing could perform these calculations much more efficiently, leading to better investment strategies and financial outcomes.</p>
+            <p>In conclusion, quantum computing stands at the frontier of technological innovation. As research progresses and quantum computers become more accessible, their transformative impact on various industries and our understanding of computation will become increasingly evident. The future, it seems, is quantum, and it holds endless possibilities and transforming our world in unprecedented ways.</p>
+        </section>
+        <section class="text text-with-images">
+            <article class="brief-history">
+                <h3 class="list-title">A Brief History</h3>
+                <p>of Computing</p>
+                <ul class="lists">
+                    <li>
+                        <h4 class="list-subtitle">1939 </h4>
+                        <p>Alan Turing and his team created the Bombe machine, which decrypted German messages during World War II</p>
+                    </li>
+                    <li>
+                        <h4 class="list-subtitle">1941 </h4>
+                        <p>The concept of the computer mouse was invented</p>
+                    </li>
+                    <li>
+                        <h4 class="list-subtitle">1971 </h4>
+                        <p>Intel developed the first microprocessor, the 4004</p>
+                    </li>
+                    <li>
+                        <h4 class="list-subtitle">1981 </h4>
+                        <p>IBM introduced its first personal computer, the IBM PC</p>
+                    </li>
+                    <li>
+                        <h4 class="list-subtitle">1991 </h4>
+                        <p>The World Wide Web became publicly available, revolutionizing how we access information</p>
+                    </li>
+                    <li>
+                        <h4 class="list-subtitle">2007 </h4>
+                        <p>Apple released the first iPhone, transforming mobile computing and communication</p>
+                    </li>
+                </ul>
+            </article>
+            <aside class="image-wrapper">
+                <img src="https://i.postimg.cc/2ySWmF6D/microprocessor.png" alt="a microprocessor" loading="lazy" class="image-1" width="600" height="400"/>
+                <img src="https://i.postimg.cc/Y9y6vWYw/Quantum-qubits.png" alt="quantum qubits" loading="lazy" class="image-2" width="400" height="400"/>
+                <blockquote class="image-quote">
+                    <hr/>
+                    <p class="quote">From room-sized machines to pocket-sized powerhouses, computing has revolutionized life, bringing unprecedented speed, connectivity, and artificial intelligence capabilities.</p>
+                    <hr/>
+                </blockquote>
+                <img src="https://i.postimg.cc/QxS6p05p/0-s-and-1-s-screen.png" alt="screen with 0's and 1's" loading="lazy" class="image-3" width="600" height="400"/>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
