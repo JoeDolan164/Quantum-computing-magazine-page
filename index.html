@@ -13,7 +13,7 @@
         <section class="heading">
             <header class="site-header">
                 <img src="https://i.postimg.cc/Y9y6vWYw/Quantum-qubits.png" alt="Quantum qubits" loading="lazy" class="main-img"/>
-                <h1 class="main-title">QUANTUM COMPUTING</h1>
+                <h1 class="main-title" id="scrollTarget">QUANTUM COMPUTING</h1>
                 <p class="main-subtitle">Unleashing unprecedented computational power and speed.</p>
             </header>
             <div class="author">
@@ -83,5 +83,15 @@
             </aside>
         </section>
     </main>
+    <script>
+        // Wait for the page to load
+        window.onload = function() {
+            // Set a 2-second timer
+            setTimeout(() => {
+                // Scroll to the heading with smooth behavior
+                document.getElementById("scrollTarget").scrollIntoView({ behavior: "smooth" });
+            }, 2000); // Delay for 2000ms = 2 seconds
+        };
+    </script>
 </body>
 </html>
