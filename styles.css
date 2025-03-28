@@ -30,6 +30,9 @@ img{
   width:100%;
   object-fit:cover;
 }
+.image-1 {
+  object-fit: contain;
+}
 hr{
   margin:1.5rem 0;
   border:1px solid rgba(120,120,120,0.6);
@@ -47,16 +50,16 @@ hr{
   column-width:25rem;
   text-align:justify;
 }
-.hero{
+.site-header{
   grid-column:1/-1;
   position:relative;
 }
-.hero-title{
+.main-title{
   text-align:center;
   color:#bfe9a2;
   font-size:8rem;
 }
-.hero-subtitle{
+.main-subtitle{
   font-size:2.4rem;
   color:rgb(221, 217, 215);
   text-align:center;
@@ -65,7 +68,6 @@ hr{
   font-size:2rem;
   font-family:"Raleway",sans-serif;
 }
-
 .social-icons{
   display:grid;
   font-size:3rem;
@@ -122,17 +124,25 @@ hr{
   .image-wrapper{
     grid-template-columns:1fr;
   }
+  .image-1 {
+    margin-top:-60px;
+    margin-bottom:-60px
+  }
 }
 @media only screen and (max-width:600px){
   .text-with-images{
     grid-template-columns:1fr;
   }
+  .image-1 {
+    margin-top:-40px;
+    margin-bottom:-40px
+  }
 }
 @media only screen and (max-width:550px){
-  .hero-title{
+  .main-title{
     font-size:6rem;
   }
-  .hero-subtitle,.author,.quote,.list-title{
+  .main-subtitle,.author,.quote,.list-title{
     font-size:1.8rem;
   }
   .social-icons{
@@ -143,7 +153,11 @@ hr{
   }
 }
 @media only screen and (max-width:420px){
-  .hero-title{
+  .main-title{
     font-size:4.5rem;
+  }
+  .image-1 {
+    margin-top:-100px;
+    margin-bottom:-90px
   }
 }
